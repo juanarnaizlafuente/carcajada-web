@@ -5,6 +5,330 @@ body {
   overflow-x: hidden;
 }
 
+/* Insignias de confianza con la paleta alegre de Carcajada en todas las vistas. */
+.trust .avatars i:first-child {
+  background: #efad91;
+  color: #80514a;
+}
+
+.trust .avatars i:nth-child(2) {
+  background: #ef7c78;
+  color: #9c274b;
+}
+
+.trust .avatars i:last-child {
+  background: #ead58e;
+  color: #42634c;
+}
+
+@media (max-width: 750px) {
+  .site-header {
+    min-height: 70px;
+    padding: 14px 16px;
+    gap: 10px;
+  }
+
+  .brand {
+    gap: 7px;
+    font-size: 25px;
+    line-height: 1;
+  }
+
+  .brand .logo-image,
+  .logo-image {
+    width: 35px;
+    height: 35px;
+  }
+
+  .site-header nav {
+    gap: 0;
+  }
+
+  .nav-cta {
+    padding: 10px 13px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .hero {
+    min-height: 0;
+    padding: 28px 20px 48px;
+    gap: 28px;
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 12vw, 58px);
+    letter-spacing: -1px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .hero-actions {
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+  }
+
+  .hero-actions .button {
+    min-height: 48px;
+    padding: 13px 18px;
+  }
+
+  .trust {
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 30px;
+  }
+
+  .trust p {
+    font-size: 11px;
+    line-height: 1.35;
+  }
+
+  .hero-art {
+    height: 395px;
+    min-height: 395px;
+    min-width: 0;
+    border-radius: 30px;
+  }
+
+  .party-card {
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    height: 250px;
+    transform: translate(-50%, -50%) rotate(-6deg);
+  }
+
+  .hero-logo {
+    width: 125px;
+    height: 125px;
+  }
+
+  .party-caption {
+    font-size: 16px;
+  }
+
+  .party-caption strong {
+    font-size: 30px;
+  }
+
+  .sun {
+    top: 18px;
+    right: 18px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .blob-one,
+  .blob-two {
+    width: 220px;
+    height: 220px;
+    bottom: -120px;
+  }
+
+  .blob-one {
+    left: -70px;
+  }
+
+  .blob-two {
+    right: -90px;
+  }
+
+  .sticker {
+    top: 46%;
+    right: 10%;
+    padding: 8px 12px;
+    font-size: 17px;
+  }
+
+  .sticker-two {
+    right: 9%;
+    bottom: 10%;
+    font-size: 24px;
+  }
+
+  .services,
+  .packages {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .services {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .section-heading h2,
+  .contact h2 {
+    font-size: 36px;
+    line-height: 1.05;
+    margin-bottom: 30px;
+  }
+
+  .moments {
+    margin: 20px 0 60px;
+    padding: 40px 24px;
+    border-radius: 25px;
+  }
+
+  .moments h2 {
+    font-size: 38px;
+  }
+
+  .moment-note {
+    padding: 28px 20px;
+    font-size: 23px;
+  }
+
+  .packages {
+    margin-top: 0;
+    padding-top: 34px;
+    padding-bottom: 70px;
+    border-radius: 24px;
+  }
+
+  .package-grid {
+    gap: 14px;
+  }
+
+  .package-card {
+    min-width: 0;
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  .package-card h3 {
+    font-size: 27px;
+    line-height: 1.05;
+  }
+
+  .package-card p {
+    font-size: 15px;
+    line-height: 1.45;
+  }
+
+  .package-card .price {
+    margin-top: 18px;
+    font-size: 19px;
+    line-height: 1.2;
+    white-space: normal;
+  }
+
+  .tax-note {
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
+  .download {
+    font-size: 14px;
+  }
+
+  .gallery {
+    padding: 30px 20px 64px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .gallery-placeholder {
+    min-height: 130px;
+  }
+
+  .about-card {
+    padding: 28px 20px;
+  }
+
+  .about-card h2,
+  .team h2,
+  .faq h2,
+  .reviews h2 {
+    font-size: 36px;
+    line-height: 1.05;
+  }
+
+  .about-shape {
+    min-height: 250px;
+  }
+
+  .about-shape img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .team {
+    gap: 28px;
+  }
+
+  .team-placeholder {
+    height: 240px;
+  }
+
+  .highlights,
+  .faq,
+  .legal-info {
+    margin-bottom: 64px;
+  }
+
+  .reviews {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  footer {
+    padding: 28px 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .site-header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .brand {
+    font-size: 22px;
+  }
+
+  .nav-cta {
+    padding: 9px 10px;
+    font-size: 12px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero-art {
+    height: 270px;
+  }
+
+  .hero-logo {
+    width: 95px;
+    height: 95px;
+  }
+
+  .party-card {
+    width: 190px;
+    height: 205px;
+  }
+
+  .party-caption strong {
+    font-size: 27px;
+  }
+}
+/* Ajustes responsive de la vista provisional de Carcajada. */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
 @media (max-width: 750px) {
   .site-header {
     min-height: 70px;
